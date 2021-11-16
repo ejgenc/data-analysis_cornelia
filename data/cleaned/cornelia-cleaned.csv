@@ -435,7 +435,7 @@ BRGA818,00001689B,,,1689,5399,Jan Baptist,Meskens,glazier,tutor,start
 BRGA818,00001689C,,,1689,5662,Francois,De Coster,gilder,apprentice,start
 BRGA818,00001689C,,,1689,5542,Francois,Reps,gilder,tutor,start
 BRGA818,00001689D,,,1689,513,Lucas,Achtschellinck,painter,tutor,start
-BRGA818,00001689D,,,1689,5672,[anonymous],,painter,apprentice,start
+BRGA818,00001689D,,,1689,5672,,,painter,apprentice,start
 BRGA818,00001689E,,,1689,3252,Francois,Ysenbaut,member,dean,start
 BRGA818,00001689E,,,1689,3246,Joris,Ringheler,member,dean,start
 BRGA818,00001689E,,,1689,5358,Thomas,Pins,member,dean,start
@@ -450,7 +450,7 @@ BRGA818,00001691A,,,1691,5607,Carolus,Van Baeckegom,member,dean,start
 BRGA818,00001691A,,,1691,5669,Hieronymus,Ringheler,member,dean,start
 BRGA818,00001691B,,,1691,5707,Dionysus,Van Waeyenbergh,glazier,master,start
 BRGA818,00001691C,,,1691,5711,Francois,Berbiers,glazier,master,start
-BRGA818,00001691D,,,1691,5712,[NN],Willemont,painter,master,start
+BRGA818,00001691D,,,1691,5712,,Willemont,painter,master,start
 BRGA818,00001692A,,,1692,5713,Johannes,Pletinckx,painter,master,start
 BRGA818,00001692B,,,1692,5482,Jan [b],Raes,member,dean,start
 BRGA818,00001692B,,,1692,5423,Raymandus,Ringheler,member,dean,start
@@ -466,7 +466,7 @@ BRGA818,00001694C,,,1694,5653,Laurys,Casier,gilder,master,start
 BRGA818,00001694D,,,1694,5734,Carel,Van Geel,painter,master,start
 BRGA818,00001694E,,,1694,5735,Peter Joseph,Le Fils,painter,master,start
 BRGA818,00001694F,,,1694,582,Jacob,Van der Heyden,member,tutor,start
-BRGA818,00001694F,,,1694,5742,[anonymous],,member,apprentice,start
+BRGA818,00001694F,,,1694,5742,,,member,apprentice,start
 BRGA818,00001694G,,,1694,5745,Jan,Vaele,painter,apprentice,start
 BRGA818,00001694G,,,1694,150,Victor,Janssens,painter,tutor,start
 BRGA818,00001695A,,,1695,5669,Hieronymus,Ringheler,member,dean,start
@@ -589,7 +589,7 @@ BRGA818,00001702C,,,1702,5857,,Crick,glazier,master,start
 BRGA818,00001702D,,,1702,5860,Herman,Pilemans,painter,non-sworn in master,start
 BRGA818,00001702E,,,1702,5861,Joos,Verhasselt,glazier,master,start
 BRGA818,00001702F,,,1702,5862,Francois,Quebout,painter,non-sworn in master,start
-BRGA818,00001702G,,,1702,5863,[NN],Van der Marcken,painter,non-sworn in master,start
+BRGA818,00001702G,,,1702,5863,,Van der Marcken,painter,non-sworn in master,start
 BRGA818,00001702H,,,1702,5865,Elisabeth,Celdrin,painter,non-sworn in master,start
 BRGA818,00001702H,,,1702,5866,Catharina,Van Stichel,painter,non-sworn in master,start
 BRGA818,00001702I,,,1702,5867,Michiel,De Leeuw,member,apprentice,start
@@ -601,7 +601,7 @@ BRGA818,00001703A,,,1703,5427,Philips,Mille,member,dean,start
 BRGA818,00001703A,,,1703,5472,Ludovicus,Schoreels,member,dean,start
 BRGA818,00001703B,,,1703,5870,Albert,De Backer,glazier,master,start
 BRGA818,00001703C,,,1703,5871,Antoon,Barbiers,painter,non-sworn in master,start
-BRGA818,00001703D,,,1703,5872,[NN],Reysbracht,painter,non-sworn in master,start
+BRGA818,00001703D,,,1703,5872,,Reysbracht,painter,non-sworn in master,start
 BRGA818,00001703E,,,1703,5873,Adriaen,Pauwels,member,apprentice,start
 BRGA818,00001703E,,,1703,563,Peter,Van Orley,member,tutor,start
 BRGA818,00001704A,,,1704,5904,Carel Judocus,Raes,member,dean,start
@@ -617,7 +617,7 @@ BRGA818,00001705C,,,1705,5906,Simon,De Heucht,goldsmith,apprentice,start
 BRGA818,00001705C,,,1705,5904,Carel Judocus,Raes,goldsmith,tutor,start
 BRGA818,00001705D,,,1705,5908,Jan,Van der Belen,gilder,apprentice,start
 BRGA818,00001705D,,,1705,5716,Michiel,Van Cutsem,gilder,tutor,start
-BRGA818,00001705E,,,1705,5895,[NN],Verheul,painter,non-sworn in master,start
+BRGA818,00001705E,,,1705,5895,,Verheul,painter,non-sworn in master,start
 BRGA818,00001705F,,,1705,5899,Joseph,Laboureur,painter,master,start
 BRGA818,00001706A,,,1706,5812,Hendrick,Van den Houten,member,dean,start
 BRGA818,00001706A,,,1706,5904,Carel Judocus,Raes,member,dean,start
@@ -2444,7 +2444,7 @@ BRGA818,24061692A,24,6,1692,5715,Adriaen,De Caron,member,apprentice,start
 BRGA818,24061692A,24,6,1692,3033,Jan,Van Daele,member,tutor,start
 BRGA818,24061692B,24,6,1692,5716,Michiel,Van Cutsem,member,apprentice,start
 BRGA818,24061692B,24,6,1692,5607,Carolus,Van Baeckegom,member,tutor,start
-BRGA818,24061692C,24,6,1692,5717,[NN],Van der Hopstadt,member,apprentice,start
+BRGA818,24061692C,24,6,1692,5717,,Van der Hopstadt,member,apprentice,start
 BRGA818,24061692C,24,6,1692,5358,Thomas,Pins,member,tutor,start
 BRGA818,24071631,24,7,1631,2851,Everard,Rurinckx,member,master,start
 BRGA818,24071638,24,7,1638,5323,Mario,Tibauti,member,apprentice,start
