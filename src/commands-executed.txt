@@ -1,0 +1,33 @@
+To translate the "role" column:
+
+value.replace("apotheker","pharmacist")
+value.replace("vergulder","gilder"),
+value.replace("glasschilder","glass painter"),
+value.replace("gelaesschryver","glass painter"),
+value.replace("goudslager","goldsmith")
+value.replace("plaatslager","plate craftsman")
+
+To translate the "status" column:
+
+value.replace("leermeester","tutor")
+value.replace("meesterszoon","master's son")
+value.replace("ouderman","dean")
+value.replace("recognitie","non-sworn in master")
+value.replace("cortosie","non-sworn in master")
+
+To fix the null value notation inconsistency in "actor_first_name" column:
+value.replace("[NN]", "")
+value.replace("anonymous", "")
+
+To normalize the "source_entry" column:
+1. column source_entry -> edit cells -> transform -> if((isNumeric(value[-1]) == false), value[-1], "")
+
+2. column date_day -> edit cells -> transform -> if(isNull(value), "00", value)
+
+3. column date_month -> edit cells -> transform -> if(isNull(value), "00", value)
+
+4. column source_entry -> edit column - join columns -> REORDER BY DRAGGING to the following order: date_day, date_month, date_year, source_entry, select all four, join
+
+5. column date_day -> edit cells -> transform -> if((value == "00"), "", value)
+
+6. column date_month -> edit cells -> transform -> if((value == "00"), "", value)
