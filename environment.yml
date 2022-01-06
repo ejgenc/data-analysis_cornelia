@@ -1,0 +1,13 @@
+name: cornelia-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.7
+  - numpy
+  - pandas
+  - doit
+  - notebook
+  - pip
+  - pip:
+    - -e .
