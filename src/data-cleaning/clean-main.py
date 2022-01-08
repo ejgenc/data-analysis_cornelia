@@ -4,7 +4,6 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from pandas.io.formats.style import no_mpl_message
 
 # Import data
 import_fp = Path("data/main/cornelia-raw.csv")
@@ -77,4 +76,5 @@ dataset = (dataset
 
 # Export data
 export_fp = Path("data/cleaned/cornelia-cleaned.csv")
-dataset.to_csv(export_fp, encoding="utf-8", sep=";")
+dataset.to_csv(export_fp, encoding="utf-8",
+               sep=";", index=False)
