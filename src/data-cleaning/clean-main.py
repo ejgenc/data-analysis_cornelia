@@ -4,6 +4,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from pandas.io.formats.style import no_mpl_message
 
 # Import data
 import_fp = Path("data/main/cornelia-raw.csv")
@@ -60,17 +61,23 @@ dataset.loc[:, ["role", "status"]] = (dataset.loc[:, ["role", "status"]]
                                       .replace(to_replace=replace_dict))
 
 # Enrich 'role' column
-actor_role_year = dataset.loc[:, ["actor_first_name", "actor_surname",
-                                  "date_year", "role"]]
-actor_role_year["TEMP_fname"] = (actor_role_year["actor_first_name"]
-                                 + " "
-                                 + actor_role_year["actor_surname"])
+# Create an 'actor role' dataframe that holds the role info for all the actors
+actor_role = dataset.loc[:, ["actor_id","role"]]
+actor_role = (actor_role
+              .loc[actor_role["role"] != "member", ["actor_id", "role"]]
+              .groupby("actor_id")
+              .first()
+              .reset_index())
 
-print(actor_role_year)
-
+# Join with the original dataset
+dataset = (dataset
+           .merge(actor_role, on="actor_id")
+           .drop(["role_x"], axis=1)
+           .rename({"role_y": "role"}, axis=1))
+print(dataset)
 
 # Export data
-# export_fp = Path("data/cleaned/cornelia-cleaned.csv")
-# dataset.to_csv(export_fp, format="utf-8", sep=";")
+export_fp = Path("data/cleaned/cornelia-cleaned.csv")
+dataset.to_csv(export_fp, format="utf-8", sep=";")
 
 
