@@ -74,10 +74,7 @@ dataset = (dataset
            .merge(actor_role, on="actor_id")
            .drop(["role_x"], axis=1)
            .rename({"role_y": "role"}, axis=1))
-print(dataset)
 
 # Export data
 export_fp = Path("data/cleaned/cornelia-cleaned.csv")
-dataset.to_csv(export_fp, format="utf-8", sep=";")
-
-
+dataset.to_csv(export_fp, encoding="utf-8", sep=";")

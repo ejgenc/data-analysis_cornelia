@@ -9,6 +9,6 @@ def task_clean_main():
     return {
         "file_dep": [Path("data/main/cornelia-raw.csv")],
         "actions": ["python {}".format(action_path)],
-        # "targets": [Path("data/cleaned/cornelia-cleaned.csv")],
+        "targets": [Path("data/cleaned/cornelia-cleaned.csv")],
         "title": show_cmd
     }
