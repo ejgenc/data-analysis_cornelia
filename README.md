@@ -39,7 +39,7 @@ Once this command is run, Conda will use the information provided inside the **e
 
 **Don't forget to activate your environment before running the analysis.** You can activate the environment using the following command:
 
-`conda activate city-lines-env`
+`conda activate cornelia-env`
 
 ### Run the cleaning and processing scripts
 
